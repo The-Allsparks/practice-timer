@@ -1,0 +1,21 @@
+{
+  "id": "biobuzz-2026",
+  "label": "BIOBUZZ 2026–27",
+  "citation": "BIOBUZZ TU04, October 8, 2026",
+  "locked": true,
+  "countInSeconds": 3,
+  "restSeconds": 60,
+  "boundaries": {
+    "autoStart": 0,
+    "autoEnd": 30,
+    "teleopStart": 38,
+    "flower": 98,
+    "final20": 138,
+    "matchEnd": 158
+  },
+  "clocks": {
+    "autoRemainingAtStart": 150,
+    "teleopRemainingAtStart": 120,
+    "transitionFrozen": 120
+  }
+}

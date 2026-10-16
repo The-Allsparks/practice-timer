@@ -1,0 +1,331 @@
+{
+  "id": "practice",
+  "version": "3",
+  "label": "Practice sounds",
+  "cues": [
+    {
+      "id": "charge",
+      "label": "Charge",
+      "file": "charge.wav",
+      "durationMs": 605,
+      "onsetMs": 0,
+      "tailMs": 604,
+      "source": "Generated for The Allsparks practice pack. Not an FTC Live recording.",
+      "license": "Original Allsparks practice audio. Free to copy for team practice.",
+      "trim": {
+        "headMs": 0,
+        "tailMs": 0
+      },
+      "alignment": {
+        "point": "start",
+        "offsetMs": 0
+      }
+    },
+    {
+      "id": "eight",
+      "label": "Eight",
+      "file": "eight.wav",
+      "durationMs": 182,
+      "onsetMs": 8,
+      "tailMs": 174,
+      "source": "Generated for The Allsparks practice pack. Not an FTC Live recording.",
+      "license": "Original Allsparks practice audio. Free to copy for team practice.",
+      "trim": {
+        "headMs": 104,
+        "tailMs": 868
+      },
+      "alignment": {
+        "point": "onset",
+        "offsetMs": 8
+      }
+    },
+    {
+      "id": "seven",
+      "label": "Seven",
+      "file": "seven.wav",
+      "durationMs": 433,
+      "onsetMs": 8,
+      "tailMs": 425,
+      "source": "Generated for The Allsparks practice pack. Not an FTC Live recording.",
+      "license": "Original Allsparks practice audio. Free to copy for team practice.",
+      "trim": {
+        "headMs": 118,
+        "tailMs": 818
+      },
+      "alignment": {
+        "point": "onset",
+        "offsetMs": 8
+      }
+    },
+    {
+      "id": "six",
+      "label": "Six",
+      "file": "six.wav",
+      "durationMs": 478,
+      "onsetMs": 8,
+      "tailMs": 470,
+      "source": "Generated for The Allsparks practice pack. Not an FTC Live recording.",
+      "license": "Original Allsparks practice audio. Free to copy for team practice.",
+      "trim": {
+        "headMs": 115,
+        "tailMs": 772
+      },
+      "alignment": {
+        "point": "onset",
+        "offsetMs": 8
+      }
+    },
+    {
+      "id": "five",
+      "label": "Five",
+      "file": "five.wav",
+      "durationMs": 254,
+      "onsetMs": 8,
+      "tailMs": 246,
+      "source": "Generated for The Allsparks practice pack. Not an FTC Live recording.",
+      "license": "Original Allsparks practice audio. Free to copy for team practice.",
+      "trim": {
+        "headMs": 215,
+        "tailMs": 856
+      },
+      "alignment": {
+        "point": "onset",
+        "offsetMs": 8
+      }
+    },
+    {
+      "id": "four",
+      "label": "Four",
+      "file": "four.wav",
+      "durationMs": 294,
+      "onsetMs": 8,
+      "tailMs": 286,
+      "source": "Generated for The Allsparks practice pack. Not an FTC Live recording.",
+      "license": "Original Allsparks practice audio. Free to copy for team practice.",
+      "trim": {
+        "headMs": 204,
+        "tailMs": 772
+      },
+      "alignment": {
+        "point": "onset",
+        "offsetMs": 8
+      }
+    },
+    {
+      "id": "three",
+      "label": "Three",
+      "file": "three.wav",
+      "durationMs": 314,
+      "onsetMs": 8,
+      "tailMs": 306,
+      "source": "Generated for The Allsparks practice pack. Not an FTC Live recording.",
+      "license": "Original Allsparks practice audio. Free to copy for team practice.",
+      "trim": {
+        "headMs": 137,
+        "tailMs": 788
+      },
+      "alignment": {
+        "point": "onset",
+        "offsetMs": 8
+      }
+    },
+    {
+      "id": "two",
+      "label": "Two",
+      "file": "two.wav",
+      "durationMs": 250,
+      "onsetMs": 8,
+      "tailMs": 242,
+      "source": "Generated for The Allsparks practice pack. Not an FTC Live recording.",
+      "license": "Original Allsparks practice audio. Free to copy for team practice.",
+      "trim": {
+        "headMs": 102,
+        "tailMs": 773
+      },
+      "alignment": {
+        "point": "onset",
+        "offsetMs": 8
+      }
+    },
+    {
+      "id": "one",
+      "label": "One",
+      "file": "one.wav",
+      "durationMs": 313,
+      "onsetMs": 8,
+      "tailMs": 305,
+      "source": "Generated for The Allsparks practice pack. Not an FTC Live recording.",
+      "license": "Original Allsparks practice audio. Free to copy for team practice.",
+      "trim": {
+        "headMs": 121,
+        "tailMs": 815
+      },
+      "alignment": {
+        "point": "onset",
+        "offsetMs": 8
+      }
+    },
+    {
+      "id": "go",
+      "label": "GO",
+      "file": "go.wav",
+      "durationMs": 229,
+      "onsetMs": 8,
+      "tailMs": 221,
+      "source": "Generated for The Allsparks practice pack. Not an FTC Live recording.",
+      "license": "Original Allsparks practice audio. Free to copy for team practice.",
+      "trim": {
+        "headMs": 137,
+        "tailMs": 763
+      },
+      "alignment": {
+        "point": "onset",
+        "offsetMs": 8
+      }
+    },
+    {
+      "id": "buzzers",
+      "label": "Buzzers",
+      "file": "buzzers.wav",
+      "durationMs": 560,
+      "onsetMs": 0,
+      "tailMs": 560,
+      "source": "Generated for The Allsparks practice pack. Not an FTC Live recording.",
+      "license": "Original Allsparks practice audio. Free to copy for team practice.",
+      "trim": {
+        "headMs": 0,
+        "tailMs": 0
+      },
+      "alignment": {
+        "point": "start",
+        "offsetMs": 0
+      }
+    },
+    {
+      "id": "pickup",
+      "label": "Pick up controllers",
+      "file": "pickup.wav",
+      "durationMs": 1983,
+      "onsetMs": 8,
+      "tailMs": 1975,
+      "source": "Generated for The Allsparks practice pack. Not an FTC Live recording.",
+      "license": "Original Allsparks practice audio. Free to copy for team practice.",
+      "trim": {
+        "headMs": 107,
+        "tailMs": 709
+      },
+      "alignment": {
+        "point": "after-buzzer",
+        "offsetMs": 0
+      }
+    },
+    {
+      "id": "bells",
+      "label": "Bells",
+      "file": "bells.wav",
+      "durationMs": 1080,
+      "onsetMs": 0,
+      "tailMs": 1076,
+      "source": "Generated for The Allsparks practice pack. Not an FTC Live recording.",
+      "license": "Original Allsparks practice audio. Free to copy for team practice.",
+      "trim": {
+        "headMs": 0,
+        "tailMs": 0
+      },
+      "alignment": {
+        "point": "start",
+        "offsetMs": 0
+      }
+    },
+    {
+      "id": "chime",
+      "label": "Chime",
+      "file": "chime.wav",
+      "durationMs": 900,
+      "onsetMs": 1,
+      "tailMs": 895,
+      "source": "Generated for The Allsparks practice pack. Not an FTC Live recording.",
+      "license": "Original Allsparks practice audio. Free to copy for team practice.",
+      "trim": {
+        "headMs": 0,
+        "tailMs": 0
+      },
+      "alignment": {
+        "point": "start",
+        "offsetMs": 0
+      }
+    },
+    {
+      "id": "whistle",
+      "label": "Whistle",
+      "file": "whistle.wav",
+      "durationMs": 850,
+      "onsetMs": 0,
+      "tailMs": 846,
+      "source": "Generated for The Allsparks practice pack. Not an FTC Live recording.",
+      "license": "Original Allsparks practice audio. Free to copy for team practice.",
+      "trim": {
+        "headMs": 0,
+        "tailMs": 0
+      },
+      "alignment": {
+        "point": "start",
+        "offsetMs": 0
+      }
+    },
+    {
+      "id": "end",
+      "label": "End buzzer",
+      "file": "end.wav",
+      "durationMs": 3000,
+      "onsetMs": 0,
+      "tailMs": 2999,
+      "source": "Generated for The Allsparks practice pack. Not an FTC Live recording.",
+      "license": "Original Allsparks practice audio. Free to copy for team practice.",
+      "trim": {
+        "headMs": 0,
+        "tailMs": 0
+      },
+      "alignment": {
+        "point": "start",
+        "offsetMs": 0
+      }
+    },
+    {
+      "id": "foghorn",
+      "label": "Foghorn",
+      "file": "foghorn.wav",
+      "durationMs": 1600,
+      "onsetMs": 1,
+      "tailMs": 1600,
+      "source": "Generated for The Allsparks practice pack. Not an FTC Live recording.",
+      "license": "Original Allsparks practice audio. Free to copy for team practice.",
+      "trim": {
+        "headMs": 0,
+        "tailMs": 0
+      },
+      "alignment": {
+        "point": "start",
+        "offsetMs": 0
+      }
+    },
+    {
+      "id": "rest-notice",
+      "label": "Rest notice",
+      "file": "rest-notice.wav",
+      "durationMs": 300,
+      "onsetMs": 1,
+      "tailMs": 300,
+      "source": "Generated for The Allsparks practice pack. Not an FTC Live recording.",
+      "license": "Original Allsparks practice audio. Free to copy for team practice.",
+      "trim": {
+        "headMs": 0,
+        "tailMs": 0
+      },
+      "alignment": {
+        "point": "start",
+        "offsetMs": 0
+      }
+    }
+  ]
+}

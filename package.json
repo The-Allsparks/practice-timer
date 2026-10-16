@@ -1,0 +1,10 @@
+{
+  "name": "practice-timer",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "sounds": "node scripts/generate-sounds.mjs",
+    "test": "node test/machine.test.mjs",
+    "deploy": "npx wrangler deploy"
+  }
+}

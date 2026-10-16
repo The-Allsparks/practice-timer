@@ -1,0 +1,9 @@
+{
+  "name": "Allsparks Practice Timer",
+  "short_name": "Practice Timer",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#212121",
+  "theme_color": "#FDD835",
+  "lang": "en"
+}

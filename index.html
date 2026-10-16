@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#FDD835">
+  <title>Practice Timer — The Allsparks</title>
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body data-accent="ready">
+  <header>
+    <div class="stripe"></div>
+    <div class="bar chrome">
+      <div>
+        <p class="brand">The Allsparks</p>
+        <p class="season">BIOBUZZ 2026–27</p>
+      </div>
+      <div class="status">
+        <p id="sound-status">Checking sound</p>
+        <p id="offline-status">Checking offline</p>
+        <p id="wake-status"></p>
+      </div>
+    </div>
+  </header>
+  <main>
+    <p id="phase" class="phase" aria-live="polite">READY</p>
+    <p id="paused" class="paused" hidden>PAUSED</p>
+    <p id="clock" class="clock">2:30</p>
+    <p class="secondary"><span id="secondary-label"></span> <span id="secondary-clock"></span></p>
+    <p id="banner" class="banner" aria-live="polite"></p>
+    <p id="cue" class="cue"></p>
+    <p id="run-meta" class="meta">Run 0 · Completed 0</p>
+    <section id="readiness" class="card">
+      <button id="test-sound" type="button">Test sound</button>
+      <button id="ready-start" class="primary" type="button">Ready—start practice</button>
+      <button id="silent-start" type="button" hidden>Practice without sound</button>
+    </section>
+    <section id="result" class="card" hidden>
+      <p id="result-copy"></p>
+      <button id="resume-run" type="button" hidden>Resume</button>
+      <button id="run-again" class="primary" type="button">Run again</button>
+    </section>
+  </main>
+  <div class="controls chrome">
+    <button id="start" class="primary" type="button">Start</button>
+    <button id="pause" type="button">Pause</button>
+    <button id="reset" type="button">Reset</button>
+    <button id="abort" type="button">Abort</button>
+    <label>Mode
+      <select id="mode">
+        <option value="full">Full match</option>
+        <option value="auto">AUTO only</option>
+        <option value="transition">Transition + TELEOP</option>
+        <option value="teleop">TELEOP only</option>
+        <option value="final20">Final 20</option>
+        <option value="custom">Custom</option>
+      </select>
+    </label>
+    <button id="fullscreen" type="button">Fullscreen</button>
+    <button id="settings-open" type="button">Settings</button>
+  </div>
+  <p class="hint">Space start or pause · R reset · F fullscreen · M mute · Esc leaves fullscreen</p>
+  <footer><div class="stripe"></div></footer>
+  <dialog id="settings">
+    <form method="dialog">
+      <h2>Settings</h2>
+      <label>Repeat practice<input id="repeat" type="checkbox"></label>
+      <label>Rest notice<input id="rest-notice" type="checkbox"></label>
+      <label>Custom seconds<input id="custom-seconds" type="number" min="1" max="600" value="20"></label>
+      <label>Warning<input id="warning-enabled" type="checkbox"></label>
+      <label>Warning seconds<input id="warning-seconds" type="number" min="1" max="599" value="5"></label>
+      <label>App volume <input id="volume" type="range" min="0" max="1" step="0.05" value="0.8"></label>
+      <p class="note">Chromebook speaker volume is separate from this slider.</p>
+      <label>Mute<input id="mute" type="checkbox"></label>
+      <label>Silent mode<input id="silent" type="checkbox"></label>
+      <div id="soundboard" class="soundboard"></div>
+      <label>Import practice pack<input id="import-pack" type="file" accept=".json,.wav,audio/*" multiple></label>
+      <p id="pack-note" class="note"></p>
+      <button id="export-log" type="button">Export settings and runs</button>
+      <label>Import settings and runs<input id="import-log" type="file" accept="application/json,.json"></label>
+      <h2>About</h2>
+      <p class="note">This is an unofficial Allsparks practice aid. It does not start or stop a robot. Timing follows BIOBUZZ TU04, October 8, 2026. The transition counts each second from 8 to 1. FIRST does not publish the Live field recordings for reuse, so the bundled audio is an original practice pack shaped like those cues.</p>
+      <button type="submit" class="primary">Close</button>
+    </form>
+  </dialog>
+  <dialog id="confirm">
+    <form method="dialog">
+      <p>Reset this practice run?</p>
+      <button id="confirm-reset" value="reset" class="primary" type="submit">Reset</button>
+      <button value="keep" type="submit">Keep going</button>
+    </form>
+  </dialog>
+  <script>
+    if (location.protocol === 'file:') {
+      document.getElementById('banner').textContent = 'This page has to be served. Open http://127.0.0.1:8766/';
+      document.getElementById('sound-status').textContent = 'Not loaded';
+    }
+  </script>
+  <script type="module" src="./src/app.js"></script>
+</body>
+</html>
